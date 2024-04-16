@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e; /* Dark background color */
+            color: #fff; /* Light text color */
+            margin: 0;
+            padding: 0;
+        }
+        .result {
+            width: 50%;
+            margin: 50px auto;
+            padding: 20px;
+            border: 2px solid #333; /* Dark border color */
+            border-radius: 5px;
+            background-color: #333; /* Dark container background color */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow for container */
+            text-align: center;
+        }
+        .result p {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .result span {
+            color: #007bff; /* Accent color */
+        }
+    </style>
+</head>
+<body>
+    <div class="result">
+        <p>CO2 Emission by Car:</p>
+        <p>{{ prediction_text }}</p>
+    </div>
+</body>
+</html>
